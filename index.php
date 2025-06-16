@@ -29,5 +29,6 @@ var_dump($x);
 define("NUM",200);  // constant name must be quoted string
 echo NUM; 
 $b=NUM+20;
-echo $b;         ;
+echo $b;  
+echo "hi guys";       ;
 ?>
