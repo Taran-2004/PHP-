@@ -63,6 +63,7 @@ echo "After /= : $x<br>"; //  $x = $x % 4;
 $name = "Hello";
 $name .= " Taran!";
 echo $name;
+
 $a = 10;
 $b = "10";
 $c = 20;
@@ -93,4 +94,16 @@ var_dump($a >= 10);  // true
 
 echo "<br>9. Less Than or Equal (<=): ";
 var_dump($a <= 9);   // false
+
+// if-statement,elseif,else
+$marks = 75;
+if ($marks >= 90) {
+    echo "Grade: A+";
+} elseif ($marks >= 75) {
+    echo "Grade: A";
+} elseif ($marks >= 60) {
+    echo "Grade: B";
+} else {
+    echo "Grade: C or below";
+}
 ?>
