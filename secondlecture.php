@@ -131,11 +131,7 @@ echo "<br>";
 // Bonus: str_word_count() with return = 2 (words with position)
 print_r(str_word_count("PHP is fun", 2));  // Output: Array ( [0] => PHP [4] => is [7] => fun )
 echo "<br>";
-
-
-
-
-echo  str_replace("hi","gudmorning","hi taran")
+echo  str_replace("hi","gudmorning","hi taran");
  ?>
     </center>
 </body>
